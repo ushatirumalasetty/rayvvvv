@@ -1,0 +1,22 @@
+1. Create a ride request having the following details
+        from_place
+        to_place
+        travel_datetime
+        number of seats requiredc
+2. Create a share request having the following details
+        from_place
+        to_place
+        Start_datetime
+        car_name
+        number of seats available
+
+3. Get matching requests based on the criteria mentioned below
+        1. from_place and to_place should match
+        2. Difference between travel_datetime in ride request and
+           start_datetime mentioned in the share request should be less than or equal to 1 hour
+        3. If ride requester mention that he is flexible with time then get results
+           such that the time difference between  ride request and share request is between 5 hours
+        4. If ride requester mention that he is flexible with date the get results
+           such that the date difference between ride request and share request is between 1 day
+
+4. Admin should receive a notification when a new ride request is created

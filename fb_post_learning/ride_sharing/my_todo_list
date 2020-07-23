@@ -1,0 +1,25 @@
+To be implemented
+   1. Implement send_email when mail_id, content and subject are given
+   2. Implement get_admin_email
+
+In progress
+   1. Send a notification email to admin
+
+Completed
+   1. Create a ride request with from_place
+   2. Create a ride request with to_place
+   3. In create a ride request validate from_place should not be empty string
+   4. In create a ride request validate to_place should not be empty string
+   5. Create a ride request with travel_datetime
+   6. In create a ride request travel_datetime should be greater than current datetime
+   7. Create a ride request with number of seats required
+   8. In create a ride request validate given number of seats required is positive integer number
+
+
+
+Business Doubts:
+   1. Can from_place and to_place be empty string - Validated with respective person
+   2. travel_datetime should be greater than current datetime - Validated with respective person
+
+
+Technical Doubts:
