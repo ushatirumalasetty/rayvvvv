@@ -1,5 +1,5 @@
 # packages
-django==3.0.5
+django==3.0.14
 # django-fine-uploader-s3==1.0.0
 urllib3==1.24.3
 boto3==1.9.155
